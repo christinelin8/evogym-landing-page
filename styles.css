@@ -107,15 +107,17 @@ main {
 }
 
 .companies-container{
-    display: flex;
-    justify-content: space-around;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-left: 10em;
 
-    padding-top: 6em;
-    padding-bottom: 6em;
     background-color: rgb(250,226,225);
 }
 
-.companies-container img {
-    width: 6.5rem;
-    height: 3vh;
+.fortune {
+    padding-right: 13em;
+}
+
+.forbes {
+    padding-right: 13em;
 }
