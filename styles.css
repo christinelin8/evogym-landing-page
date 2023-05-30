@@ -103,5 +103,19 @@ main {
 
 .main-right-side {
     margin-left: 8em;
+    margin-bottom: 
 }
 
+.companies-container{
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-color: rgb(250,226,225);
+}
+
+.companies-container img {
+    width: 6.5rem;
+    height: 3vh;
+}
