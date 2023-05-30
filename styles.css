@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 7rem;
+    height: 2.7vh;
+    margin-top: 2rem;
+    margin-left: 11rem;
+}
+
+nav {
+    display: flex; 
+    background-color: rgb(247,244,236);
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(93,21,16);
+
+    padding-right: 2em;
+}
+
+.nav-right-side {
+    margin-left: 35em;
+}
+
+.sign-up-btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9rem;
+    color: rgb(93,21,16);
+    background: rgb(246,195,82);
+    border: none;
+    border-radius: .5em;
+    
+    padding: .5rem 2rem;
+    margin-top: 1.75em;
+}
+
+main {
+    display: flex;
+    background-color: rgb(247,244,236);
+}
+
+.main-left-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.evolve-img {
+    width: 45em;
+    margin-left: 4.3em;
+    margin-top: 7em;
+    margin-bottom: -3em;
+}
+
+.evo-fitness-img {
+    width: 30em;
+    margin-left: 9em;
+}
+
+.main-left-side p {
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(93,21,16);
+    font-size: .9em;
+
+    margin-left: 10.3em;
+    margin-top: 2em;
+
+    inline-size: 45em;
+}
+
+.join-btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9rem;
+    color: rgb(93,21,16);
+    background: rgb(246,195,82);
+    border: none;
+    border-radius: .5em;
+
+    margin-left: 10.3em;
+    margin-top: 1em;
+    margin-right: 2em;
+    padding: .5rem 2rem;
+}
+
+.main-left-buttons a{
+    color: rgb(237,116,108);
+    text-decoration: underline;
+}
+
+.main-right-side {
+    margin-left: 8em;
+}
+
