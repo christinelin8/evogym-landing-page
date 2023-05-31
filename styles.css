@@ -103,13 +103,13 @@ main {
 
 .main-right-side {
     margin-left: 8em;
-    margin-bottom: 
+    margin-top: 3.5em;
 }
 
 .companies-container{
-    padding-top: 3.5em;
-    padding-bottom: 4.7em;
-    padding-left: 10em;
+    padding-top: 2.7em;
+    padding-bottom: 2.7em;
+    padding-left: 9.5em;
 
     background-color: rgb(250,226,225);
 }
@@ -121,3 +121,60 @@ main {
 .forbes {
     padding-right: 13em;
 }
+
+.services-statement h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: rgb(86, 12, 6);
+
+    padding-left: 5.2em;
+    padding-top: 2em;
+}
+
+.services-statement p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9em;
+    inline-size: 46em;
+    color: rgb(125, 67, 63);
+
+    margin-left: 10.5em;
+    margin-bottom: 5em;
+}
+
+.list-of-gifts {
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'DM Sans', sans-serif;
+}
+
+.list-of-gifts section {
+    border: 2px solid rgb(220, 205, 204);
+    text-align: center;
+}
+
+.list-of-gifts section h2 {
+    font-size: 1em;
+    color: rgb(86, 12, 6);
+}
+
+.list-of-gifts section p {
+    font-size: 1em;
+    inline-size: 28em;
+    color: rgb(91, 19, 13);
+}
+
+.list-of-gifts section img {
+    display: block;
+    width: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+.list-of-gifts section a {
+    display: block;
+    margin-bottom: 3em;
+}
+
