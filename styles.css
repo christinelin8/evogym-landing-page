@@ -146,6 +146,8 @@ main {
     display: flex;
     justify-content: space-around;
 
+    margin-bottom: 5em;
+
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -176,5 +178,47 @@ main {
 .list-of-gifts section a {
     display: block;
     margin-bottom: 3em;
+    width: 100%;
+
+    text-decoration: underline;
+    color: rgb(237,116,108);
+}
+
+.members-join-container {
+    display: flex;
+
+    margin-top: 8em;
+}
+
+.members-join-left-side img {
+    margin-left: 5em;
+}
+
+.members-join-right-side h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: rgb(86, 12, 6);
+}
+
+.members-join-right-side span {
+    color: rgb(237,116,108);
+}
+
+.members-join-right-side p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.08em;
+    inline-size: 55em;
+    color: rgb(91, 19, 13);
+}
+
+.members-join-right-side button {
+    background: rgb(246,195,82);
+    border: none;
+    border-radius: .5em;
+    
+
+    padding: 1em 2.5em;
+    margin-right: 50em;
+
 }
 
