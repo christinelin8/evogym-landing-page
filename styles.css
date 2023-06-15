@@ -8,7 +8,7 @@ body {
     width: 7rem;
     height: 2.7vh;
     margin-top: 2rem;
-    margin-left: 11rem;
+    margin-left: 9.7rem;
 }
 
 nav {
@@ -259,7 +259,63 @@ main {
     display: flex;
 }
 
+.join-now-left span, .join-now-left h2 {
+    color: rgb(237, 116, 108);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+
+    margin-top: 4em;
+    margin-left: 2.5em;
+}
+
+.join-now-left h2 {
+    font-size: 2em;
+    color: rgb(86, 12, 6);
+}
+
+.join-now-left p{
+    color: rgb(102, 36, 31);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1em;
+    inline-size: 50em;
+
+    margin-left: 10em;
+}
+
 .form input, textarea {
     background-color: rgb(242, 170, 165);
+    font-family: 'DM Sans', sans-serif;
+
+    border: none;
+    border-radius: .8em;
+
+    margin-left: 12em;
+    margin-top: 1.5em;
+    width: 60em;
+    padding: 1em 0;
+}
+
+.form input::placeholder, textarea::placeholder {
+    color: white;
+    padding-left: 2em;
+}
+
+.form-submit input {
+    background-color: rgb(246,195,82);
+    color: rgb(106, 35, 16);
+
+    border: none;
+    border-radius: .8em;
+
+    margin-left: 12em;
+    margin-top: 1.5em;
+    margin-bottom: 10em;
+    width: 15em;
+    padding: 1em 0;
+}
+
+.join-now-right {
+    margin-top: 6em;
+    margin-left: 12em;
 }
 
