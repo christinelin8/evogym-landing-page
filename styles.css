@@ -319,3 +319,24 @@ main {
     margin-left: 12em;
 }
 
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250,226,225);
+
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(105, 35, 16);
+}
+
+footer section {
+    margin-top: 4em;
+}
+
+.footer-paragraph {
+    inline-size: 40em;
+}
+
+.footer-bold {
+    font-weight: bold;
+}
+
